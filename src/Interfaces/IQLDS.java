@@ -5,6 +5,8 @@
  */
 package Interfaces;
 
+import main.CaNhan;
+
 /**
  *
  * @author DELL

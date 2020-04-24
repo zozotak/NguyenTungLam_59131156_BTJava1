@@ -7,7 +7,7 @@ package main;
 //
 
 import Interfaces.IQLDS;
-import java.main.ArrayList;
+import java.util.ArrayList;
 
 //
 /**
@@ -43,6 +43,7 @@ public class QLDS implements IQLDS {
     // methods In Ds
     @Override
     public void inDS() {
-      dsCaNhan.forEach(cn -> System.out.println(cn.hienThiTT()));
+      dsCaNhan.forEach(cn -> System.out.println(cn.HienThiTT()));
     }
+
 }

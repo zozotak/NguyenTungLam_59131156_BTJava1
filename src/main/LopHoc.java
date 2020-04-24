@@ -6,8 +6,8 @@
 package main;
 //
 
-import Interface.IQLDS;
-import java.main.ArrayList;
+import Interfaces.IQLDS;
+import java.util.ArrayList;
 
 /**
  *
@@ -52,14 +52,14 @@ public class LopHoc {
     
     // methods Them HS
     public int ThemHocSinh(HocSinh hs) {
-      if (qlDsHS.them(hs) == 1) {
+      if (qlDsHS.Them(hs) == 1) {
         return 1;
       }
       return 0;
     }
     // methods Them GV 
     public int ThemGVGD(GiaoVien gv) {
-      if (qlDsGVGD.them(gv) == 1) {
+      if (qlDsGVGD.Them(gv) == 1) {
         return 1;
       }
       return 0;
@@ -97,7 +97,5 @@ public class LopHoc {
 //        return 0;
 //    }
 
-    public void ThemHocSinh(HocSinh hs1) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+ 
     }
-}

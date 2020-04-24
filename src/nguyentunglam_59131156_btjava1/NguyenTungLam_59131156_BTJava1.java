@@ -6,7 +6,7 @@
 package nguyentunglam_59131156_btjava1;
 //
 
-import java.main.Scanner;
+import java.util.Scanner;
 import main.GiaoVien;
 import main.HocSinh;
 import main.LopHoc;
